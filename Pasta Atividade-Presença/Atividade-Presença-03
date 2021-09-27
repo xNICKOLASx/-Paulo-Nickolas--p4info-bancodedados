@@ -1,0 +1,22 @@
+Descreva as fases de um Projeto de Banco de Dados:
+1) Modelagem Conceitual:
+O projeto de banco de dados é basicamente, dividido em Projeto Conceitual, Projeto Lógico e Projeto Físico. 
+Porém antes de começar a projetar o banco de dados é necessário a realização de análise de requisitos junto ao cliente.
+O Projeto Conceitual se baseia na especificação de requisitos criados a partir das necessidades do cliente. 
+A partir deste insumo de informações é gerado um esquema conceitual do banco de dados. 
+Esquema conceitual é uma visão macro do banco de dados, uma descrição de alto nível da estrutura.
+Os modelos de Entidade-Relacionamento são muito utilizados para descrever os esquemas conceituais. 
+É importante que nesta fase o conteúdo de informação seja descrito e não a estrutura onde elas serão armazenadas 
+
+2) Projeto Lógico:
+O Projeto Lógico é a etapa onde mapeamos o conceito dos modelos de entidade-relacionamento em objetivos de bancos de dados. 
+Nesta fase criamos os modelos internos de bancos de dados, 
+com detalhes sobre tabelas, relacionamentos, regras, metadados das colunas (tipo, tamanho, obrigatoriedade, ...), visões, etc.
+Ao final, o resultado de um projeto lógico é um esquema do banco de dados parecido com o modelo conceitual, porém com mais detalhes de banco de dados e não apenas conceitos.
+
+3) Projeto Físico:
+O Projeto Físico é a parte final do projeto de banco de dado, nesta etapa define-se detalhes técnicos da implementação do banco de dados, 
+por exemplo a forma como os dados serão armazenados, os scripts para a criação dos objetos no banco de dados (tabelas, visões, colunas, funções, ...), 
+permissão de acesso de usuário, etc. Esta etapa é fortemente ligada ao SGBD que será utilizado. 
+A otimização de desempenho do banco de dados é trabalhada nesta fase do projeto.
+
