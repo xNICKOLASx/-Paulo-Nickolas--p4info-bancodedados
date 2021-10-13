@@ -1,0 +1,30 @@
+
+Defina uma Tabela e exemplifique o uso de comando SQL que executam
+operações CRUD.
+
+Primeiro é necessário definir uma tabela:
+CREATE TABLE "suserano" (
+"ID" INTEGER NOT NULL,
+"nome" varchar(50) NOT NULL,
+"posses" varchar(255) NOT NULL,
+PRIMARY KEY("ID" AUTOINCREMENT)
+)
+
+Agora é necessário inserir dados nessa tabela:
+(Create)
+INSERT INTO suserano (nome, posses) VALUES
+("Charles", "Minas de carvão"),
+("Théo", "Castelos"),
+("Luca", "Área de cultivo");
+
+agpra vamos vizualizar elementos da tabela.
+(Read)
+SELECT * FROM suserano;
+
+Agora iremos usar um Query para atualizar dados da tabela:
+(Update)
+UPDATE Suserano set nome = "Gabriel" where ID = 1;
+
+Deletando valores de uma tabela:
+(Delete)
+DELETE FROM suserano WHERE ID = 2;
