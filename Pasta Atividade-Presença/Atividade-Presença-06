@@ -1,0 +1,14 @@
+Uma Entidade Associativa ocorre em relacionamentos n:n.
+Foi solicitado que a mesma seja demonstrada abaixo:
+
+a) Demonstre uma Entidade Associativa e descreva seus atributos.
+Temos a relação entre Suserano e seu Vassalo.
+A partir daí, criamos então uma entidade chamada SUSERANO_VASSALO.
+Ela possuirá então os atributos:
+-ID_suserano (chave estrangeira relacionada com a chave primária de suserano)
+-ID_vassalo (chave estrangeira relacionada com a chave primária de
+vassalo)
+-posses (indica as terras, objetos e materiais ou até mesmo um castelo dado pelo suserano)
+-fidelidade (indica a lealdade de um vassalo ao seu suserano)
+Nesse caso, a chave primária seria formada pelos atributos IR_suserano e
+ID_vassalo.
