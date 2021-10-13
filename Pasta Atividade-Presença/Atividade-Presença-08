@@ -1,0 +1,36 @@
+Sobre a abordagem relacional foi solicitada a definição dos conceitos abaixo:
+
+a) Tabela
+É a estrutura simples que contém os dados armazenados em formato de linhas e colunas.
+
+b) Chave Primária
+É uma informação atribuída a uma (coluna) que distingue um registro de outro, de forma que não
+haja dois registros iguais por não poderem possuir a mesma chave primária.
+
+c) Chave Estrangeira
+É uma coluna da tabela, que estabelece uma relação entre uma parte da tabela com outra. Ela
+é a referência de uma chave primária de outra tabela numa determinada tabela.
+
+d) Chave Alternativa
+Em poucas palavras consiste em um valor que poderia ser atribuido como uma chave primária, mas não foi.
+
+e) Domínio da Coluna
+É o tipo de dado utilizado na coluna de uma tabela.
+
+f) Integridade de Dominio
+Define o tipo de dado que deve ser utilizado numa coluna específica.
+Eles devem sempre ser do tipo que foi definido para aquela coluna.
+
+g) Integridade de Vazio
+Diz respeito ao fato de ser obrigado ou não colocar um dado numa coluna. Se
+for obrigado, não pode haver falta de dado nessa coluna em específico sendo um dado nulo ou não.
+
+h) Integridade de Chave
+Os valores da chave primária devem ser únicos, não pode haver mais de um
+registro com a mesma chave primária. Seguindo a lógica de importância singular do valor de uma PRIMARY KEY ela tem que ter um valor não nulo.
+
+i) Integridade Referencial
+Os valores em uma determinada tabela são válidos a partir dos valores de
+outra tabela premeditada. Por exemplo: se um produto de ID 60 foi cadastrado
+numa tabela de vendas, deve haver um registro de ID 60 na tabela de
+encomendas.
