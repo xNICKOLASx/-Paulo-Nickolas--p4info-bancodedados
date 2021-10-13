@@ -1,0 +1,27 @@
+Em relação a cardinalidade que define um relacionamento, sabe-se que:
+
+a) Exemplifique e conceitue Cardinalidade Máxima e Cardinalidade Mínima
+A cardinalidade mínima diz respeito à quantidade mínima isto é a menor quantidade de ocorrências de
+entidades que podem ser associadas à uma outra ocorrência de entidade.
+Exemplo: imaginando um  empregado e uma empresa na qual o empregado trabalha, um empregado pode
+ser associado no mínimo a um departamento dessa empresa, necessitando que ele esteja num
+setor da empresa a cardinalidade mínima 0.
+A cardinalidade máxima diz respeito à quantidade máxima isto é maior quantidade de instâncias de
+entidades que podem ser associadas a outras instâncias de entidades.
+Exemplo: num relacionamento entre comprador e produto, um comprador pode ter
+no máximo um número infinitos de produtos solicitados, pois não necessariamente precisa de um
+limite. Há também a cardinalidade máxima 1, que seria o caso de uma
+compra, que pode ser associada a no máximo 1 cliente.
+
+b) Explique um exemplo de uma cardinalidade 1:1;
+Associação entre marido e mulher: Um marido só pode ser associado a uma
+esposa se ele for fiel, ele não pode ter mais de uma esposa. Da mesma forma, uma esposa
+só pode ser associada a um marido de maneira 1 para 1.
+
+c) Explique um exemplo de uma cardinalidade 1:n;
+Associação entre comprador e encomenda. alguém que compra pode ter mais de um pedido já que ela deve e pode pedir o que bem achar necessário (n
+pedidos), porém o pedido só pode pertencer a um comprador.
+
+d) Explique um exemplo de uma cardinalidade n:n.
+Associação entre aluno e matéria. um aluno pode cursar mais de uma cadeira em uma faculdade ou curso mas o (n disciplinas), e uma disciplina pode ser cursada por mais de um
+aluno (n alunos).
