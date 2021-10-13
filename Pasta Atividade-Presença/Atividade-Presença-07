@@ -1,0 +1,9 @@
+
+Foi solicitado que eu apresente a explicação para a  afirmação abaixo: 
+"Um Modelo deve refletir o seu aspecto temporal".
+
+Diversas vezes ocorrem circunstâncias das quais certas aplicações necessitam que o banco de dados mantenha o
+histórico de alterações de informações de maneira constante e exata. Um modelo de banco de dados que armazena
+apenas informações atuais e dados que mudam de acordo com  o necessário é diferente por exemplo de um modelo estáticp que apresenta o histórico de
+informações e são nesses casos em que o aspecto temporal deve ser considerado, ou seja,
+os dados que mudam ao longo do tempo devem ser mantidos pelo Banco de Dados de maneira atualizada e exata.
